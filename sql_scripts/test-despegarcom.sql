@@ -34,15 +34,15 @@ create table reservations
 );
 
 
-INSERT INTO `test-despegarcom`.airlines (id, name, description) VALUES (1, 'Aerolineas Argentinas', 'Aerolineas Argentinas');
-INSERT INTO `test-despegarcom`.airlines (id, name, description) VALUES (2, 'American Airlines', 'American Airlines');
-INSERT INTO `test-despegarcom`.airlines (id, name, description) VALUES (3, 'Sol', 'Sol');
-INSERT INTO `test-despegarcom`.airlines (id, name, description) VALUES (4, 'Turkish Airlines', 'Turkish Airlines');
-INSERT INTO `test-despegarcom`.airlines (id, name, description) VALUES (5, 'Qatar Airlines', 'Qatar Airlines');
-INSERT INTO `test-despegarcom`.airlines (id, name, description) VALUES (6, 'Air Europa', 'Air Europa');
-INSERT INTO `test-despegarcom`.airlines (id, name, description) VALUES (7, 'Aeroméxico', 'Aeroméxico');
-INSERT INTO `test-despegarcom`.airlines (id, name, description) VALUES (8, 'Latam', 'Latam');
-INSERT INTO `test-despegarcom`.cities (id, name, state, country) VALUES (1, 'Buenos Aires', 'Ciudad de Buenos Aires', 'Argentina');
-INSERT INTO `test-despegarcom`.cities (id, name, state, country) VALUES (2, 'Mar del Plata', 'Buenos Aires', 'Argentina');
-INSERT INTO `test-despegarcom`.cities (id, name, state, country) VALUES (3, 'Pinamar', 'Buenos Aires', 'Argentina');
-INSERT INTO `test-despegarcom`.cities (id, name, state, country) VALUES (4, 'Cariló', 'Buenos Aires', 'Argentina');
+INSERT INTO airlines (id, name, description) VALUES (1, 'Aerolineas Argentinas', 'Aerolineas Argentinas');
+INSERT INTO airlines (id, name, description) VALUES (2, 'American Airlines', 'American Airlines');
+INSERT INTO airlines (id, name, description) VALUES (3, 'Sol', 'Sol');
+INSERT INTO airlines (id, name, description) VALUES (4, 'Turkish Airlines', 'Turkish Airlines');
+INSERT INTO airlines (id, name, description) VALUES (5, 'Qatar Airlines', 'Qatar Airlines');
+INSERT INTO airlines (id, name, description) VALUES (6, 'Air Europa', 'Air Europa');
+INSERT INTO airlines (id, name, description) VALUES (7, 'Aeroméxico', 'Aeroméxico');
+INSERT INTO airlines (id, name, description) VALUES (8, 'Latam', 'Latam');
+INSERT INTO cities (id, name, state, country) VALUES (1, 'Buenos Aires', 'Ciudad de Buenos Aires', 'Argentina');
+INSERT INTO cities (id, name, state, country) VALUES (2, 'Mar del Plata', 'Buenos Aires', 'Argentina');
+INSERT INTO cities (id, name, state, country) VALUES (3, 'Pinamar', 'Buenos Aires', 'Argentina');
+INSERT INTO cities (id, name, state, country) VALUES (4, 'Cariló', 'Buenos Aires', 'Argentina');
