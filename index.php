@@ -79,10 +79,6 @@
                                 <label for="departure_date" class="col-sm-4 col-form-label">Fecha de Salida</label>
                                 <input type="text" class="form-control datepicker" name="departure_date" id="departure_date" data-toggle="datepicker" placeholder="Elije una fecha..." required>
                             </div>
-<!--                            <div class="form-group row">-->
-<!--                                <label for="arrival_date" class="col-sm-4 col-form-label">Fecha de Llegada</label>-->
-<!--                                <input type="text" class="form-control datepicker" name="arrival_date" id="arrival_date" placeholder="Elije una fecha..." required>-->
-<!--                            </div>-->
                             <div class="form-group row">
                                 <label for="airline_id" class="col-sm-4 col-form-label">Aerolinea</label>
                                 <select class="form-control" name="airline_id" id="airline_id" required></select>
